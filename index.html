@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="es">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="assets\css\style.css">
+
+    <link rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous">
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+
+      <script src="assets\js\app.js"></script>
+
+    <title>Viajes Chile</title>
+  </head>
+
+
+
+  <body>
+
+    <nav
+    class="navbar navbar-expand-md navbar-dark fixed-top navbar-color"
+    id="navbar"
+  >
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="assets\img\viajes.svg" alt="logo" height="53">Viajes Chile</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#scrollspyHeading1">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#scrollspyHeading2">Quienes Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#scrollspyHeading3">Destacados</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#scrollspyHeading4">Contacto</a>
+            </li>
+          </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+
+
+
+
+    <h4 id="scrollspyHeading1"></h4>
+  <!--Carrusel-->
+
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets\img\carousel1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="assets\img\carousel2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="assets\img\carousel3.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>  <!--Carrusel-->
+
+    <!--acá se uso d-none-->
+    <div class="container" id="parrafos">
+        <div class="d-none d-md-block"> 
+          <h1 class="text-center" id="scrollspyHeading2">Quienes Somos</h1>
+          <hr>
+            <div class="row align-items-start">
+              <div class="col">
+                <section class="bg-info py-1 text-white">
+                  <div class="container py-1 text-center">
+                     <i class="fab fa-avianex fa-2x"></i>
+                </div>
+                </section>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad exercitationem quisquam quod nam incidunt, aut officiis velit labore atque veniam ipsum modi accusamus assumenda molestiae, debitis necessitatibus veritatis? Distinctio, ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos harum sapiente consequatur nihil, asperiores, officiis temporibus facere voluptatum obcaecati illum inventore expedita aspernatur? Quam odio corrupti cupiditate! Quia, porro odit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam porro exercitationem mollitia harum eveniet aspernatur ipsam, iusto nobis magnam a asperiores. Magnam, illum nam! Voluptates earum facilis cumque vel voluptatum.</p>
+              </div>
+              <div class="col">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad exercitationem quisquam quod nam incidunt, aut officiis velit labore atque veniam ipsum modi accusamus assumenda molestiae, debitis necessitatibus veritatis? Distinctio, ipsum? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam odio animi necessitatibus eius commodi. Veritatis cumque quisquam eveniet mollitia dignissimos assumenda, pariatur perferendis, sed consequuntur ipsam recusandae veniam porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, saepe fugit? Reprehenderit nemo, nobis non velit aperiam vitae perferendis, autem possimus ipsum quo eligendi earum nulla illum ullam cum fuga?</p>
+              <section class="bg-info py-1 text-white">
+                <div class="container py-1 text-center">
+                  <i class="fas fa-mountain fa-2x"></i>
+                </div>
+              </div>
+              </section >
+              <div class="col">
+                <section class="bg-info py-1 text-white">
+                  <div class="container py-1 text-center">
+                    <i class="fas fa-route fa-2x"></i>
+                </div>
+                </section>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad exercitationem quisquam quod nam incidunt, aut officiis velit labore atque veniam ipsum modi accusamus assumenda molestiae, debitis necessitatibus veritatis? Distinctio, ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae illum molestias quibusdam minus nemo. Aut soluta laudantium magnam ex iusto! Vero vel voluptatem ipsa deserunt quas. Soluta nam autem cum? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum eos consectetur vel sit error, modi iusto nemo veniam facilis nulla possimus repudiandae repellat similique at quos sed tenetur eaque corrupti!</p>
+              </div>
+            </div>
+
+        </div>    <!--acá se uso d-none-->
+
+    </div>
+
+    <h1 class="text-center" id="scrollspyHeading3">Destacados</h1>
+
+    <div class="carta">
+      <hr>
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="assets\img\card1.jpg" class="card-img-top" alt="...">
+          <div class="card-body bg-info">
+            <h5 class="card-title">Chiloé</h5>
+            <p class="card-text">Tierra de mitos, leyendas, tradiciones y una gastronomía incomparable. Chiloé es una isla de sorprendente riqueza cultural y natural.
+              Descubre sus pintorescos palafitos, coloridas casas construidas sobre el agua y disfruta de la compañía de sus cálidos habitantes.</p><br>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Ver más
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="Tittle text-dark">Chiloé</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Superficie: 8,394 km²</li>
+                      <li class="list-group-item">Longitud máxima: 180 km</li>
+                      <li class="list-group-item">Grupo de islas: Patagonic Archipelago</li>
+                      <li class="list-group-item">Población: 150 000 hab. </li>
+                      <li class="list-group-item">Región; Provincia: Los Lagos; Chiloé</li>
+                    </ul>
+
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Volver atrás">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="assets\img\card2.jpg" class="card-img-2" alt="...">
+          <div class="card-body bg-info">
+            <h5 class="card-title">San Pedro de Atacama</h5>
+            <p class="card-text">San Pedro de Atacama fue la cuna del pueblo atacameño, creadores de la Cultura San Pedro, que se desarrolló en la zona hace más de 11.000 años atrás. Este pueblo se extendió a través del altiplano y el desierto de Atacama, estableciéndose especialmente en oasis como el de San Pedro.</p><br>
+            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+              Ver más
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="Tittle text-dark">San Pedro de Atacama</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Elevación: 2,408 m</li>
+                      <li class="list-group-item">Superficie: 23,439 km²</li>
+                      <li class="list-group-item">Población: 3,899</li>
+                      <li class="list-group-item">Gentilicio: Sampedrino </li>
+                      <li class="list-group-item">Región: Antofagasta</li>
+                    </ul>
+
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Volver atrás">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="assets\img\card3.jpg" class="card-img-top" alt="...">
+          <div class="card-body bg-info">
+            <h5 class="card-title">Patagonia</h5>
+            <p class="card-text">La Patagonia chilena es la región que se extiende desde Puerto Montt hasta Cabo de Hornos, y por tanto abarca (de norte a sur) parte de la Región de los Lagos, la Región de Aysén al completo y parte de la Región de Magallanes.</p><br><br>
+            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+              Ver más
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="Tittle text-dark">Patagonia</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Superficie: 1.043 millones km²</li>
+                      <li class="list-group-item">Región: América del Sur</li>
+                      <li class="list-group-item">Clima: Frío</li>
+                      <li class="list-group-item">Población: 2.410.804 hab.</li>
+                      <li class="list-group-item">Altitud máxima: 4709 m s. n. m.</li>
+                    </ul>
+
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Volver atrás">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="assets\img\card4.jpg" class="card-img-top" alt="...">
+          <div class="card-body bg-info">
+            <h5 class="card-title">Selva Valdiviana</h5>
+            <p class="card-text">La Selva Valdiviana (Valdivian temperate rainforest) constituye un tesoro naturale, un refugio de biodiversidad que se mantuvo aislado durante millones de años albergando especies únicas de flora y fauna, herederas de antiguos linajes que convivieron con los dinosaurios.</p><br>
+            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+              Ver más
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="Tittle text-dark">Selva Valdiviana</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Superficie: 248,100 km²</li>
+                      <li class="list-group-item">Elevación: 389 m</li>
+                      <li class="list-group-item">Bioma: Bosques templados de frondosas y mixtos</li>
+                      <li class="list-group-item">Estado de; conservación: vulnerable</li>
+                      <li class="list-group-item">Extensión: 300 000 km2</li>
+                    </ul>
+
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Volver atrás">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--FORMULARIO-->
+    <div class="container">
+      <h1 class="text-center" id="scrollspyHeading4">Contacto</h1>
+      <hr>
+      <section class="formulario">
+        <div data-tf-widget="nEagcWgk" style="width:100%;height:500px;"></div><script src="//embed.typeform.com/next/embed.js"></script>
+      </section>
+    </div>
+  </div><!--FORMULARIO-->
+
+    <footer>
+
+
+      <div class="row justify-content-between">
+        <div class="col-4">
+              <h2>VIAJES CHILE</h2>
+        </div>
+
+        <div class="col-4">
+            <div class="favicon">
+              <a href="https://github.com/"><i class="fab fa-github-square fa-2x"></i></a>
+              <a href="https://www.linkedin.com"><i class="fab
+                fa-linkedin fa-2x"></i></a>
+              <a href="https://twitter.com"><i class="fab fa-twitter-square fa-2x"></i></a>
+              <a href="https://www.facebook.com/"><i class="fab fa-facebook-square fa-2x"></i></a>
+            </div>
+        </div>
+
+
+         </div>
+       </div>
+
+
+    </footer>
+
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  </body>
+</html>

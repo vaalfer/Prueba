@@ -1,0 +1,40 @@
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.carta {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+}
+footer {
+    background-color:rgb(60, 208, 245);
+}
+h2 {
+    margin-left: 200px;
+    font-weight: 300;
+}
+hr {
+    background-color: blue;
+    opacity: 1;
+}
+.formulario {
+    margin-bottom: 50px;
+}
+.navbar-color {
+    transition: all 1s ease;
+  }
+#parrafos {
+    margin-bottom: 100px;
+}
+p {
+    font-weight: 300;
+}
+h1 {
+    font-weight: 100;
+}
+h5{
+    font-weight: 400
+}
