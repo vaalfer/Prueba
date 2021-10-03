@@ -1,9 +1,10 @@
-
+/* acá agregue el color del fondo y la letra*/
 body {
     background-color: black;
     color: white;
     font-family: 'Roboto', sans-serif;
 }
+/* modificación de márgenes*/
 .carta {
     margin-left: 200px;
     margin-right: 200px;
